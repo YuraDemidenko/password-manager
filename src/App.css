@@ -1,0 +1,128 @@
+
+.app-container {
+    background: #9cafd7;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    margin: 0;
+}
+
+.title {
+    color: white;
+}
+
+.form-box .link {
+    border: none;
+    background-color: transparent;
+    /* color: red; */
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.form-box  input {
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.box {
+    text-align: center;
+}
+
+.box button {
+    width: 500px;
+    padding: 15px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    background: #5d81b5;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.dashboard-container {
+    display: inline-block;
+    text-align: left;
+    min-width: 1200px;
+    height: 100vh;
+}
+
+.dashboard-container  .table-box {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-header tr {
+    border-bottom: 1px solid;
+    border-color: #ffffff;  
+}
+
+.table-body td {
+    padding: 20px 0;
+}
+.table-header th {
+    padding: 20px 0;
+}
+
+.table-box {
+    padding: 20px 0;
+    overflow-y: scroll;
+}
+
+.icon {
+    margin: 0 10px;
+    height: 30px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    padding: 50px;
+    background: #5f6bd6;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.add, .logout {
+    margin: 0 30px;
+    
+}
+
+
+
+
+
+
+
+    
+    
